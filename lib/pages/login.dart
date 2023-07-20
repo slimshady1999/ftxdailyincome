@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import "package:flutter/material.dart";
 
 import 'register.dart';
@@ -52,7 +51,7 @@ class _LoginPageState extends State<LoginPage> {
               const SizedBox(height: 50),
               // loginPage(context)
 
-              Container(
+              SizedBox(
                 height: MediaQuery.of(context).size.height / 1.90,
                 width: MediaQuery.of(context).size.width,
                 // color: Colors.red,

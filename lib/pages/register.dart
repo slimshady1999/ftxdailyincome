@@ -1,4 +1,3 @@
-import 'dart:math';
 import "package:flutter/material.dart";
 
 import 'login.dart';
@@ -15,7 +14,7 @@ class _RegisterPageState extends State<RegisterPage> {
 
   final TextEditingController _emailController = TextEditingController();
 
-  final TextEditingController _phoneNumberController = TextEditingController();
+  // final TextEditingController _phoneNumberController = TextEditingController();
 
   final TextEditingController _passwordController = TextEditingController();
 
@@ -24,7 +23,7 @@ class _RegisterPageState extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF0e1621),
+      backgroundColor: const Color(0xFF0e1621),
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
@@ -38,7 +37,7 @@ class _RegisterPageState extends State<RegisterPage> {
               ),
               const SizedBox(height: 30),
               // loginPage(context)
-              Container(
+              SizedBox(
                 height: MediaQuery.of(context).size.height / 1.60,
                 width: MediaQuery.of(context).size.width,
                 child: Form(
@@ -137,7 +136,7 @@ class _RegisterPageState extends State<RegisterPage> {
                       ),
                       width: MediaQuery.of(context).size.width / 1.1,
                       child: Material(
-                        color: Color(0xFFde9805),
+                        color: const Color(0xFFde9805),
                         borderRadius: BorderRadius.circular(20),
                         child: InkWell(
                           onTap: () {},

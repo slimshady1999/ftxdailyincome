@@ -36,6 +36,20 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  webview_flutter: ^4.2.2
+  connectivity_plus: ^3.0.6
+  internet_connection_checker: ^1.0.0+1
+  flutter_app_name: ^0.1.1
+  
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/appicon.png"
+  min_sdk_android: 21
+
+flutter_app_name:
+  name: "FTX Income"
 
 dev_dependencies:
   flutter_test:
