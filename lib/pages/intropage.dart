@@ -1,5 +1,6 @@
 import "package:flutter/material.dart";
-import 'package:ftxincome/pages/register.dart';
+
+import 'ftxincomepage.dart';
 
 class IntroPage extends StatelessWidget {
   const IntroPage({super.key});
@@ -56,7 +57,7 @@ class IntroPage extends StatelessWidget {
             children: [
               Padding(
                 padding: const EdgeInsets.only(left: 15.0),
-                child: Container(
+                child: SizedBox(
                   height: 60,
                   width: 180,
                   child: Material(
@@ -67,7 +68,7 @@ class IntroPage extends StatelessWidget {
                       onTap: () {
                         Navigator.of(context).pushAndRemoveUntil(
                             MaterialPageRoute(
-                                builder: (context) => const RegisterPage()),
+                                builder: (context) => const FtxDailyIncomePage()),
                             (route) => false);
                       },
                       child: const Center(

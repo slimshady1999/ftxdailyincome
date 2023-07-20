@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:ftxincome/pages/splashpage.dart';
-
-import 'pages/about.dart';
-import 'pages/privacypolicy.dart';
-import 'pages/termscondition.dart';
+import 'package:ftxincome/pages/intropage.dart';
 
 void main() {
   runApp(const MaterialApp(
-    home: AboutUs(),
+    home: IntroPage(),
     debugShowCheckedModeBanner: false,
   ));
 }

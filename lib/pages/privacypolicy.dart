@@ -16,9 +16,9 @@ class PrivacyPolicy extends StatelessWidget {
         ],
       ),
       backgroundColor: const Color(0xFF0e1621),
-      body: SingleChildScrollView(
+      body: const SingleChildScrollView(
         child: Column(
-          children: const [
+          children: [
             Padding(
               padding: EdgeInsets.only(
                 top: 50.0,
