@@ -1,16 +1,15 @@
 import "package:flutter/material.dart";
 import 'package:webview_flutter/webview_flutter.dart';
 
-class FtxDailyIncomePage extends StatefulWidget {
-  const FtxDailyIncomePage({super.key});
+class FtxRegisterPage extends StatefulWidget {
+  const FtxRegisterPage({super.key});
 
   @override
-  State<FtxDailyIncomePage> createState() => _FtxDailyIncomePageState();
+  State<FtxRegisterPage> createState() => _FtxRegisterPageState();
 }
 
-class _FtxDailyIncomePageState extends State<FtxDailyIncomePage> {
+class _FtxRegisterPageState extends State<FtxRegisterPage> {
   late WebViewController _controller;
-
   @override
   void initState() {
     // TODO: implement initState
@@ -34,7 +33,7 @@ class _FtxDailyIncomePageState extends State<FtxDailyIncomePage> {
           },
         ),
       )
-      ..loadRequest(Uri.parse('https://ftxdailyincome.com/user/register'));
+      ..loadRequest(Uri.parse('https://www.ftxdailyincome.com/user/register'));
   }
 
   @override
